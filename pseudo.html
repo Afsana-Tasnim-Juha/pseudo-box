@@ -22,6 +22,28 @@
         a:visited {
             color: brown;
         }
+
+        li:first-child {
+            color: chocolate;
+        }
+
+        li:last-child {
+            background-color: rgb(156, 156, 193);
+        }
+
+        li:nth-child(2n) {
+            color: rgb(204, 170, 130);
+        }
+
+        h3::before {
+            content: 'Hello ';
+        }
+
+        .special::after {
+            content: ' Bye';
+            background-color: rgb(140, 120, 160);
+            font-size: 30px;
+        }
     </style>
 </head>
 
@@ -39,6 +61,24 @@
         to programming hero</a>
     <a href="http://www.n-brand.com/">never
         go there</a>
+    <br>
+
+    <h3>middle size header -1</h3>
+    <h3 class="special">middle size header -2</h3>
+    <h3>middle size header -3</h3>
+    <h3 class="special">middle size header -4</h3>
+    <h3 class="special">middle size header -5</h3>
+    <h3>middle size header -6</h3>
+
+
+    <ul>
+        <li>Alia</li>
+        <li>Dalia</li>
+        <li>Kalia</li>
+        <li>Calia</li>
+        <li>Jalia</li>
+        <li>chalaia</li>
+    </ul>
 </body>
 
 </html>
